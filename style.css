@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    height: 100vh;
+    background-color: rgb(234, 30, 125);
+}
+
+.box-password{
+    margin: auto;
+    background-color: #fff;
+    padding: 0.5rem 0.8rem;
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+.password{
+    border: 0;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    outline: 0;
+}
+
+.icon-password{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
